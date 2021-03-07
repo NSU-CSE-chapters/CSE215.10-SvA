@@ -4,9 +4,9 @@ public class TasK_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an Integer: ");
-        int n = input.nextInt();
+        long n = input.nextLong();
 
-        System.out.println("sum of the digit is: "+sumDigits(n));
+        System.out.println("sum of the digit is: " + sumDigits(n));
 
     }
 
