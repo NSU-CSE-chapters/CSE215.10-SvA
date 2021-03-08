@@ -21,6 +21,7 @@ public class Task_3 {
         if (isPalindrome(n)) {
             System.out.println("palindrome");
         } else System.out.println("Not a palindrome");
+
     }
 
     public static int reverse(int number) {
