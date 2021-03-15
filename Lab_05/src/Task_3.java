@@ -8,6 +8,8 @@ public class Task_3 {
 
         int count =0;
 
+        // unsolved
+
         int[] check = new int[10];
 
         for (int i = 0; i < 9; i++) {
