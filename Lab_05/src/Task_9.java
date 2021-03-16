@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Task_9 {
+
+
     public static void main(String[] args) {
         double[][] matrix = new double[3][4];
 
@@ -15,21 +17,20 @@ public class Task_9 {
         }
 
         for (int i = 0; i < 4; i++) {
-            System.out.println("Sum of the elements at column "+i+" is "+sumColumn(matrix, 4));
+            System.out.println("Sum of the elements at column " + i + " is " + sumColumn(matrix, i));
         }
 
     }
 
-    public static double sumColumn(double[][] m, int columnIndex){
+    public static double sumColumn(double[][] m, int columnIndex) {
         double sum = 0;
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
 
-            for (int j = 0; j < 3; j++) {
-                sum += m[j][i];
-            }
-            sum =0;
+            sum += m[i][columnIndex];
+
         }
-        return  sum;
+//        sum = 0;
+        return sum;
     }
 }
