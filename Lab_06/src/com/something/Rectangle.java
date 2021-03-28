@@ -4,6 +4,7 @@ public class Rectangle {
     double width = 1;
     double height = 1;
 
+    // no arg constructor
     Rectangle() {
 
     }
@@ -13,6 +14,7 @@ public class Rectangle {
         this.height = height;
     }
 
+    //  methods
     public double getArea() {
         return width * height;
     }
