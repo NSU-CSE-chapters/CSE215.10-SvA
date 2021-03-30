@@ -6,5 +6,9 @@ public class Task_4 {
 
         System.out.println("area = "+c1.getArea());
         System.out.println("perimeter = "+c1.getPerimeter());
+        System.out.println();
+        System.out.println(c1.contains(3,3));
+        System.out.println(c1.contains(new Circle2D(4,5,10.5)));
+        System.out.println(c1.contains(new Circle2D(3,5,2.3)));
     }
 }
