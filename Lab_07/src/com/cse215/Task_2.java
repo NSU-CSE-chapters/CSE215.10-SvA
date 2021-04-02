@@ -17,7 +17,7 @@ public class Task_2 {
 
         System.out.println();
         System.out.println("Parse char to int: "+MyInteger.parseInt(new char[]{'f','1','2','r'}));
-        System.out.println("parse string to int: "+MyInteger.parseInt("545"));
+        System.out.println("parse string to int: "+MyInteger.parseInt("fahim"));
 
         System.out.println();
 

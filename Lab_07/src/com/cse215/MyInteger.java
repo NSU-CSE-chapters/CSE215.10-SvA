@@ -84,12 +84,18 @@ public class MyInteger {
             sum += Character.getNumericValue(i);
         }
 
+
         return sum;
 
     }
 
     public static int parseInt(String value) {
-        return Integer.parseInt(value);
+        int sum = 0;
+
+        for (int i = 0; i < value.length(); i++) {
+            sum += Character.getNumericValue(value.charAt(i));
+        }
+        return sum;
     }
 
 
