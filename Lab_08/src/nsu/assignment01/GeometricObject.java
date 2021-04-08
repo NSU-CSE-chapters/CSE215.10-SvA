@@ -3,9 +3,9 @@ package nsu.assignment01;
 import java.util.Date;
 
 public class GeometricObject {
-    private  String color;
-    private  boolean filled;
-    private Date dateCreated ;
+    private String color;
+    private boolean filled;
+    private Date dateCreated;
 
     public GeometricObject() {
 
