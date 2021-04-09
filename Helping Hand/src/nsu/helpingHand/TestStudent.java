@@ -10,5 +10,10 @@ public class TestStudent {
         System.out.println("student 2: total marks = "+student2.totalMarks());
         System.out.println("student 3: total marks = "+student3.totalMarks());
     }
+    int i  = 0 ;
+
 
 }
+
+
+i
