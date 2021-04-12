@@ -8,7 +8,7 @@ public class GeometricObject {
     private Date dateCreated;
 
     public GeometricObject() {
-
+        dateCreated = new Date();
     }
 
     public GeometricObject(String color, boolean filed) {
