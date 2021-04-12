@@ -1,4 +1,4 @@
-package nsu.assignment01;
+package nsu.lab08;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package nsu.assignment01;
+package nsu.lab08;
 
 public class TestCircle {
     public static void main(String[] args) {
