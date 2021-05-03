@@ -17,8 +17,9 @@ public class Task_1 {
         System.out.print("enter side3: ");
         triangle.setSide3(input.nextDouble());
 
+        input.nextLine();
         System.out.print("enter triangle color: ");
-        triangle.setColor(input.next());
+        triangle.setColor(input.nextLine());
 
         System.out.print("filled or not? ");
         triangle.setFilled(input.nextBoolean());
