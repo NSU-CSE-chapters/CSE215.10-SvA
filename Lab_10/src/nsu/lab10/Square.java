@@ -2,14 +2,15 @@ package nsu.lab10;
 
 public class Square extends GeometricObject implements Colorable {
 
-    private int side;
+    private double side;
 
-    public Square(int side1) {
+
+    public Square(double side1) {
         this.side = side1;
 
     }
 
-    public int getSide1() {
+    public double getSide1() {
         return side;
     }
 
@@ -29,7 +30,7 @@ public class Square extends GeometricObject implements Colorable {
 
     @Override
     public void howToColor() {
-        System.out.println("side1 = ");
+        System.out.println("all four color ");
     }
 
 
