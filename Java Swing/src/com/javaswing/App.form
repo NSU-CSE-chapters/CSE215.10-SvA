@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.javaswing.App">
+  <grid id="27dc6" binding="mainPane" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="149" y="32" width="458" height="452"/>
+    </constraints>
+    <properties>
+      <background color="-12509423"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1274e" class="javax.swing.JButton" binding="newButton" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="newButton"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
