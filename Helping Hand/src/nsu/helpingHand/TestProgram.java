@@ -16,6 +16,8 @@ public class TestProgram {
         System.out.println("addition: "+calculator.addition(a,b));
         System.out.println("product: "+calculator.product(a,b));
 
+        Math.floor(52.25);
+
 
 
     }
