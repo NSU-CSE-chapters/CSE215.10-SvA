@@ -1,25 +1,20 @@
 package nsu.helpingHand;
 
+import java.net.ServerSocket;
 import java.util.Scanner;
 
 public class TestProgram {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("enter num1 : ");
-        double a = input.nextDouble();
-        System.out.print("enter num2: ");
-        double b = input.nextDouble();
-        Calculator calculator = new Calculation(a, b);
+        MySequence mySequence = new MySequence();
 
-        System.out.println("addition: "+calculator.addition(a,b));
-        System.out.println("product: "+calculator.product(a,b));
+        mySequence.tostring(4);
 
-        Math.floor(52.25);
+        Series series = new Series();
+        System.out.println();
 
-
-
+        series.tostring(5);
     }
 
 }
