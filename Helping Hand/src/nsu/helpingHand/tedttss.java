@@ -1,11 +1,21 @@
 package nsu.helpingHand;
 
-public class tedttss {
-    public static void main(String[] args) {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
-        int i = 1;
-        while (i < 10)
-            if ((i++) % 2 == 0)
-                System.out.println(i);
+public class tedttss {
+    public static void main(String[] args) throws IOException {
+//
+//        InputStream in;
+//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+//        System.out.println("enter n: ");
+//        int i = Integer.parseInt(bufferedReader.readLine());
+//        System.out.println(i);
+
+        double a = 5.5;
+        double b= 0;
+        System.out.println(a/b);
     }
 }

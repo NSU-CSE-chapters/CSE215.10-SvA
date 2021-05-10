@@ -18,3 +18,9 @@ public class TestProgram {
     }
 
 }
+
+/*
+    a. we can not create instance of Sequence class because Sequence class is a abstract class.
+     Abstract class does not have a complete implementation. It has method with empty body.
+
+ */
