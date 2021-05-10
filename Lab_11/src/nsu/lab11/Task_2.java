@@ -11,10 +11,7 @@ public class Task_2 {
         for (int i = 0; i < array.length; i++) {
             array[i] =(int) ((Math.random()*100)+1);
         }
-
-//        for (int i = 0; i < array.length; i++) {
-//            System.out.print(array[i]+" ");
-//        }
+        
 
         System.out.print("enter the index of the array: ");
         int value  = input.nextInt();
