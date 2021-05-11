@@ -5,22 +5,18 @@ import java.util.Scanner;
 
 public class TestProgram {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidNameException {
+        try {
+            Patient patient3 = new Patient("boltu", 56, "cancer");
 
-        MySequence mySequence = new MySequence();
+            Patient patient1 = new Patient("bo", -5, "heart");
+            Patient patient2 = new Patient("a", 15, "brain");
 
-        mySequence.tostring(4);
+        } catch (InvalidNameException e) {
+            System.out.println(e);
+        }
 
-        Series series = new Series();
-        System.out.println();
-
-        series.tostring(5);
+        System.out.println(Patient.getNumberOfPatient());
     }
 
 }
-
-/*
-    a. we can not create instance of Sequence class because Sequence class is a abstract class.
-     Abstract class does not have a complete implementation. It has method with empty body.
-
- */
