@@ -19,7 +19,7 @@ public class JFrameDemo extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(600, 400, 400, 300);
         setTitle("Software");
-        icon = new ImageIcon("/media/f12r/Projects/CSE215.10-SvA/Java Swing/src/com/javaswing/customIcon.png");
+        icon = new ImageIcon(getClass().getResource("download.png"));
         setIconImage(icon.getImage());
         container = this.getContentPane();
         container.setBackground(Color.gray);
