@@ -5,8 +5,8 @@ public class Task_3 {
 
     }
     public  static  void bin2Dec(String binaryString){
-        try {
-            
-        }
+//        try {
+//
+//        }
     }
 }
