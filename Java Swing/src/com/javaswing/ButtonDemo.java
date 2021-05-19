@@ -2,11 +2,13 @@ package com.javaswing;
 
 import javax.swing.*;
 import java.awt.*;
+import java.net.URL;
 
 public class ButtonDemo extends JFrame {
     private Container container;
     private JButton button1,button2;
     private Cursor cursor;
+    private ImageIcon imageIcon;
 
     public ButtonDemo() throws HeadlessException {
         initComponents();
@@ -18,6 +20,9 @@ public class ButtonDemo extends JFrame {
         container.setLayout(null);
         container.setBackground(Color.gray);
 
+        URL url;
+        imageIcon = new ImageIcon(getClass().getResource("download.png"));
+
         cursor  = new Cursor(Cursor.HAND_CURSOR);
 
         button1  = new JButton("submit");
@@ -28,7 +33,7 @@ public class ButtonDemo extends JFrame {
 
         container.add(button1);
 
-        button2  = new JButton("clear");
+        button2  = new JButton(imageIcon);
         button2.setBackground(Color.white);
         button2.setBounds(260,50,200,50);
         button2.setCursor(cursor);
